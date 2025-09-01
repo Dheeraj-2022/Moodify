@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Emotion Music</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="recommendations.html">Recommendations</a>
+            <a href="login.html">Logout</a>
+        </nav>
+    </header>
+
+    <main class="dashboard">
+        <section class="camera-section">
+            <h2>Emotion Detection</h2>
+            <div class="camera-box">[ Webcam Stream Placeholder ]</div>
+            <button id="detectEmotion" class="btn">Detect Emotion</button>
+        </section>
+
+        <aside class="sidebar">
+            <h3>Detected Emotion:</h3>
+            <p id="emotionResult">Not detected yet</p>
+        </aside>
+    </main>
+
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>

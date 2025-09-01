@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header,
+footer {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    background: #007BFF;
+    color: #fff;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.landing {
+    text-align: center;
+    padding: 3rem;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+.form-container input {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.7rem;
+}
+
+.dashboard {
+    display: flex;
+    padding: 2rem;
+}
+
+.camera-section {
+    flex: 2;
+    text-align: center;
+}
+
+.camera-box {
+    background: #ddd;
+    height: 200px;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar {
+    flex: 1;
+    background: #eee;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.song-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.song-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.song-card img {
+    width: 100%;
+    border-radius: 6px;
+}
